@@ -10,4 +10,4 @@
 - 运行结果：
 ![mark](http://pbolrdc1h.bkt.clouddn.com/blog/180711/c07kaiI71g.png?imageslim)
 
-<img src="http://pbolrdc1h.bkt.clouddn.com/blog/180711/c07kaiI71g.png?imageslim" width = "100" height = "100" div align=right />
+
