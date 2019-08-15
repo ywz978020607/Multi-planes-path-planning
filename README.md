@@ -1,13 +1,9 @@
-# -Multi-planes planning demo
+# Multi-planes planning demo
 多机协同路径规划算法验证
 
-- 内容：产生10架无人机和一个随机位置数量的圆障碍，对10架无人机统一进行路径规划演示。
 
 
-- demo思路：
-![mark](http://pbolrdc1h.bkt.clouddn.com/blog/180711/6072JmdaE0.jpg?imageslim)
-
-- 运行结果：
-![mark](http://pbolrdc1h.bkt.clouddn.com/blog/180711/c07kaiI71g.png?imageslim)
-
-
+- 采用Inself的三级算法，相比传统图论算法或A*、Dijkstra算法，随着地图规模上升，时间空间复杂度优势非常明显
+- 系统较为完整，人机交互完整，能够为管理员、用户端提供不同的交互方式
+- 基于多基站式的分治策略，更符合未来空域管理思路
+- 模拟一种微信用户下单，无人机系统派送，多基站管理系统实时根据天气和无人机运行情况进行统一调度，并通过云服务器异步通信，完成整个系统功能
