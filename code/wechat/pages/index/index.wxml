@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+
+<view class="section">
+
+    <input class="input" name="Startx" placeholder="起始坐标x" bindinput="StartxInput" /><text>\n</text>
+      <input class="input" name="Starty" placeholder="起始坐标y" bindinput="StartyInput" /><text> \n </text>
+        <input class="input" name="Endx" placeholder="目的坐标x" bindinput="EndxInput" /><text> \n </text>
+          <input class="input" name="Endy" placeholder="目的坐标y" bindinput="EndyInput" /><text> \n </text>
+            <input class="input" name="V" placeholder="速度" bindinput="VInput" /><text> \n </text>
+    <button class = "CreateBtn" bindtap = "CreateBtnClick">加入飞机</button><text> \n </text><text> \n </text><text> \n </text>
+    <button class = "Clean1Btn" bindtap = "Clean1Click">清空user_add</button><text> \n </text><text> \n </text>
+    <button class = "Clean2Btn" bindtap = "Clean2Click">清空数据库</button>
+    
+    
+    
+</view>
+
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+ <input class="input" name="Startx" placeholder="起始坐标x" bindinput="StartxInput" />
+</view>
+
